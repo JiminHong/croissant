@@ -1,0 +1,88 @@
+
+
+//============================================== BASIC LAYOUT
+#content_wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+//============================================== NAV BAR
+
+.nav-wrapper{
+    background-color: $color-lightBlue;
+}
+
+nav{
+    width: 960px;
+    height: 95px;
+    margin: 0 auto;
+}
+
+.brand-logo{
+    height: 200px;
+}
+
+.nav_ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.right.nav_ul li {
+    float: left;
+    line-height: 6em;
+}
+
+ul.right.nav_ul li a {
+    display: block;
+    width: 100px;
+}
+
+.right{
+    float: right;
+}
+
+//============================================== FEATURE
+
+.index_wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: $color-lightBlue;
+}
+
+.footer_wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
