@@ -1,0 +1,22 @@
+- image: "01"
+  name: "Champs Elysee"
+  desc: "Eggs, bacon, tomato, onion, swiss"
+  price: 5.99
+
+- image: "02"
+  name: "Tour Eiffel"
+  desc: "Spinach, tomato, mushroom, onion, garlic, swiss"
+  price: 4.99
+
+
+- image: "03"
+  name: "Versailles"
+  desc: "Smoked salmon, mushrooms, swiss"
+  price: 6.99
+
+
+- image: "04"
+  name: "Montmartre"
+  desc: "Ham, potatoes, bacon, swiss"
+  price: 6.99
+

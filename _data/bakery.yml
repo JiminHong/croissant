@@ -1,0 +1,30 @@
+- image: "01"
+  name: "Jalosie"
+  desc: "Almond cream and raspberry filling"
+  price: 2.99
+
+- image: "02"
+  name: "Fresh Baked Baguettes"
+  desc: 
+  price: 2.99
+
+
+- image: "03"
+  name: "Meringue"
+  desc: 
+  price: 2.99
+
+
+- image: "04"
+  name: "Assorted Danishes"
+  desc: "Cheese, Blueberry, Cherry, Raspberry, Peach, and Pear"
+  price: 1.99
+
+
+- image: "05"
+  name: "Bear Paw"
+  desc: "Chocolate chips and vanilla pastry cream"
+  price: 2.99
+
+
+

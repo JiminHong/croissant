@@ -1,21 +1,21 @@
 - image: "01"
-  name: Le Parisien (Cranberry Brie)
-  desc: "Turkey or ham and brie, apple slices, on cranberry bread with mayo and mustard"
-  price: 4.99
+  name: "Le Petit Dejeuner (Breakfast Croissant)"
+  desc: "2 egg omelette on a croissant with 2 fillings of your choice:Swiss, Cheddar, ham, bacon, mushrooms, peppers, onion, tomato"
+  price: 8.99
 
 - image: "02"
-  name: Croque­Monsieur­
-  desc: "ham, béchamel and swiss"
-  price: 3.99
+  name: "La Belle Vie (Berry French Toast)"
+  desc: "Caramelized with cinnamon and topped with berries and whipped cream"
+  price: 9.99
 
 
 - image: "03"
-  name: Holy Hilson
-  desc: blackwidow.png
-  price: bdubsdoe
+  name: "Pain Perdu (French Toast)"
+  desc: "Caramelized with cinnamon and topped with whipped cream"
+  price: 7.99
 
 
 - image: "04"
-  name: Holy Jiseung
-  desc: blackwidow.png
-  price: bdubsdoe
+  name: "Le Parisien (Turkey or Ham, apple, and brie)"
+  desc: "Turkey or ham, apple slices, melted brie, with mayo and mustard panini pressed"
+  price: 6.99

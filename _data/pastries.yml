@@ -1,0 +1,43 @@
+- image: "01"
+  name: "Mixed Fruit Tart"
+  desc: ""
+  price: 2.99
+
+- image: "02"
+  name: "Chocolate Mousse Royale"
+  desc: ""
+  price: 2.99
+
+
+- image: "03"
+  name: "Apricot Square"
+  desc: 
+  price: 2.99
+  
+
+- image: "04"
+  name: "Apple Normandy"
+  desc: ""
+  price: 1.99
+
+
+- image: "05"
+  name: "Napoleon"
+  desc: ""
+  price: 2.99
+
+- image: "06"
+  name: "Pear Almond Tart"
+  desc: ""
+  price: 2.99
+
+- image: "07"
+  name: "Strawberry Tart"
+  desc: ""
+  price: 2.99
+
+- image: "08"
+  name: "Blueberry Tart"
+  desc: ""
+  price: 2.99
+

@@ -1,0 +1,22 @@
+- image: "01"
+  name: "Le Dijonnais (Ham or Turkey Breast and Cheese)"
+  desc: "2 egg omelette on a croissant with 2 fillings of your choice:Swiss, Cheddar, ham, bacon, mushrooms, peppers, onion, tomato"
+  price: 5.99
+
+- image: "02"
+  name: "Le Pan Bagnat (Tuna Sandwich)"
+  desc: "Albacore tuna mixed with celery and mayo, spring mix, tomato, boiled eggs, and olives"
+  price: 4.99
+
+
+- image: "03"
+  name: "Le Vegetarien (Veggie)"
+  desc: "White bean spread, spring mix, and fresh vegetables"
+  price: 6.99
+
+
+- image: "04"
+  name: "Salade du Jardin (Garden Salad)"
+  desc: "Spring mix, tomato, onion, cucumber, swiss cheese"
+  price: 6.99
+
