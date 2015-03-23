@@ -22,15 +22,18 @@ ul li{
 
 //============================================== NAV BAR
 
-nav{
+.nav-wrapper{
     background-color: $color-navDarkBrown;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 0 0 0;
+    padding-top: 10px;
     z-index: 1;
-    overflow: hidden;
+}
+
+nav{
+    max-width: 960px;
     height: 95px;
     margin: 0 auto;
 }
@@ -39,26 +42,42 @@ nav{
     height: 200px;
 }
 
-nav ul.right.nav_ul li a{
+.nav_ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     font-family: $mainFont;
-    text-decoration: none;
-    float: right;
-    width: 20%;
-    color: $color-lightyellow;
-        &:hover{
-        color: $color-lightorange;
-        }
 }
 
-nav ul.right.nav_ul{
-    width: 40%;
+ul.right.nav_ul li {
+    float: left;
+    line-height: 6em;
+}
+
+ul.right.nav_ul li a {
+    color: $color-lightyellow;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+}
+
+ul.right.nav_ul li a:hover {
+    color: $color-lightorange;
+}
+
+.right{
     float: right;
+}
+
+div [id="hamburger"]{
+  display: none;
 }
 
 //============================================== FEATURE
 
 .index_wrapper{
-    max-width: 960px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -243,13 +262,11 @@ color: #EBEBEB;
 //============================================== FOOTER
 
 footer{
-    font-family: $mainFont;
-    color: #736c67;
     background-color: $color-DarkBrown;
 }
 
 .footer_wrapper{
-    max-width: 960px;
+    width: 960px;
     margin: 0 auto;
 }
 
