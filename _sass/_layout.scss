@@ -1,15 +1,25 @@
 
 
 //============================================== BASIC LAYOUT
+body, div, h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+
 #content_wrapper{
     max-width: 960px;
     margin: 0 auto;
 }
 
+
 //============================================== NAV BAR
 
 .nav-wrapper{
-    background-color: $color-lightBlue;
+    background-color: $color-navDarkBrown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 nav{
@@ -27,6 +37,7 @@ nav{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: $mainFont;
 }
 
 ul.right.nav_ul li {
@@ -35,8 +46,14 @@ ul.right.nav_ul li {
 }
 
 ul.right.nav_ul li a {
+    color: $color-lightyellow;
     display: block;
     width: 100px;
+    text-decoration: none;
+}
+
+ul.right.nav_ul li a:hover {
+    color: $color-lightorange;
 }
 
 .right{
@@ -50,8 +67,101 @@ ul.right.nav_ul li a {
     margin: 0 auto;
 }
 
+#feature{
+    background-color: #f07d65;
+    height: 450px;
+    padding-top: 120px;
+}
+
+div#feature div.index_wrapper h1{
+    color: $color-DarkBrown;
+    font-family: $mainFont;
+    padding: 60px 0 0 100px;
+    font-size: 3rem;
+}
+
+div#feature div.index_wrapper p{
+    color: $color-DarkBrown;
+    font-family: $mainFont;
+    font-size: 2rem;
+    padding: 10px 0 0 100px;
+}
+
+#menuWrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+//============================================== BUTTON
+
+#view_menu{
+    margin: 10px 0 0 100px;
+    padding:10px 30px;
+    font-family: $mainFont;
+    font-size: 1.2em;
+    color: #efdac5;
+    border-radius: 5px;
+    border: 0;
+    background-color: $color-DarkBrown;
+}
+
+//============================================== COLUMNS
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0;}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+  width: 100%;
+}
+.span_1_of_2 {
+  width: 49.2%;
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+  width: 100%;
+}
+.span_3_of_4 {
+  width: 74.6%;
+}
+.span_2_of_4 {
+  width: 49.2%;
+}
+.span_1_of_4 {
+  width: 22.8%;
+}
+
+
+//============================================== FOOTER
+
 footer{
-    background-color: $color-lightBlue;
+    background-color: $color-DarkBrown;
 }
 
 .footer_wrapper{

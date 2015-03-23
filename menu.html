@@ -2,91 +2,98 @@
 layout: default
 title: Menu
 ---
+<div id="menuWrapper">
+	<div id="accordion">	
+		<h3>CHAUD</h3>
+	<!-- 	<div class="section group">
+	  			<div class="col span_1_of_4"> -->
+					<ol>
+						{% for menuElements in site.data.chaud %}
+						<li>
+							<div>
+								<img src="{{ site.baseurl }}/img/{{ menuElements.image }}.jpg">
+								<p>{{ menuElements.name }}</p>
+								<p>{{ menuElements.desc }}</p>
+								<p>$<span>{{ menuElements.price }}</span></p>
+							</div>
+						</li>
+						{% endfor %}
+					</ol>
+<!-- 			</div>
+		</div> -->
 
-<div id="accordion">
-	<h3>CHAUD</h3>
-	<ol>
-		{% for menuElements in site.data.chaud %}
-		<li>
-			<div>
-				<img src="{{ site.baseurl }}/img/{{ menuElements.image }}.jpg">
-				<p>{{ menuElements.name }}</p>
-				<p>{{ menuElements.desc }}</p>
-				<p>$<span>{{ menuElements.price }}</span></p>
-			</div>
-		</li>
-		{% endfor %}
-	</ol>
-
-	<h3>FROID</h3>
-	<div>
-		<ul>
-			<li>Le Dijonnais(Croissant Sandwich) – turkey or ham mayo mustard tomato spring mix</li>
-			<li>Le Poulet Fermier(Chicken Salad Sandwich) – spring mix chicken grapes walnuts celery onions and mayo</li>
-			<li>Le Pan Bagnat(Tuna salad) – Albacore Tuna with celery and mayo- boiled eggs- olives and spring mix</li>                                   
-			<li>Salade du Jardin(Garden Salad) – spring mix -cucumber –onion- cheese ( add chicken $2.00)</li>
-			<li>Le Végétarien(Veggie Sandwich) –white bean spread –Fresh Vegetables-spring mix</li>
-			<li>BLT- Bacon spring mix tomato swiss</li>
-			<li>Le Nordique Dill sauce-cucumber-Salmon-lettuce</li>
-		</ul>
-	</div>
-
-	<h3>CREPES</h3>
-	<div>
-		<h4>SAVORY</h4>
+		<h3>FROID</h3>
+		<div>
 			<ul>
-				<li>Champs Elysée- eggs bacon tomato onion swiss</li>
-				<li>Versailles- smoked salmon mushroom swiss</li>
-				<li>Sacré Cœur- scallops mushrooms parmesan and swiss</li>
-				<li>Tour Eiffel- spinach tomato mushroom onion garlic swiss</li>
-				<li>Montmartre- ham potatoes bacon swiss</li>
+				<li>Le Dijonnais(Croissant Sandwich) – turkey or ham mayo mustard tomato spring mix</li>
+				<li>Le Poulet Fermier(Chicken Salad Sandwich) – spring mix chicken grapes walnuts celery onions and mayo</li>
+				<li>Le Pan Bagnat(Tuna salad) – Albacore Tuna with celery and mayo- boiled eggs- olives and spring mix</li>                                   
+				<li>Salade du Jardin(Garden Salad) – spring mix -cucumber –onion- cheese ( add chicken $2.00)</li>
+				<li>Le Végétarien(Veggie Sandwich) –white bean spread –Fresh Vegetables-spring mix</li>
+				<li>BLT- Bacon spring mix tomato swiss</li>
+				<li>Le Nordique Dill sauce-cucumber-Salmon-lettuce</li>
 			</ul>
-		<h4>SWEET</h4>
+		</div>
+
+		<h3>CREPES</h3>
+		<div>
+			<h4>SAVORY</h4>
+				<ul>
+					<li>Champs Elysée- eggs bacon tomato onion swiss</li>
+					<li>Versailles- smoked salmon mushroom swiss</li>
+					<li>Sacré Cœur- scallops mushrooms parmesan and swiss</li>
+					<li>Tour Eiffel- spinach tomato mushroom onion garlic swiss</li>
+					<li>Montmartre- ham potatoes bacon swiss</li>
+				</ul>
+			<h4>SWEET</h4>
+				<ul>
+					<li>Nutella</li>
+					<li>Butter and Sugar</li>
+					<li>Brown Sugar</li>
+					<li>Fruit- Banana, strawberry, blueberry, or pear</li>
+					<li>Chocolate</li>
+				</ul>
+		</div>
+
+		<h3>PASTRIES</h3>
+		<div>
 			<ul>
-				<li>Nutella</li>
-				<li>Butter and Sugar</li>
-				<li>Brown Sugar</li>
-				<li>Fruit- Banana, strawberry, blueberry, or pear</li>
-				<li>Chocolate</li>
+				<li>CHOCOLATE-FILLED ÉCLAIR (FRENCH STYLE)</li>
+				<li>VANILLA-FILLED ÉCLAIR</li>
+				<li>STRAWBERRY TART</li>
+				<li>MIXED FRUIT TART</li>
+				<li>APPLE TART</li>
+				<li>APPLE NORMANDY TART</li>
+				<li>ALMOND PEAR TART</li>
+				<li>APRICOT SQUARE</li>
+				<li>WONDERFUL CHOCOLATE</li>
+				<li>CHOCOLATE MOUSSE ROYAL</li>
+				<li>CLASSIC NAPOLEON</li>
+				<li>COCONUT FLAN</li>
+				<li>VANILLA FLAN</li>
+				<li>MINI PASTRIES</li>
 			</ul>
-	</div>
+		</div>
 
-	<h3>PASTRIES</h3>
-	<div>
-		<ul>
-			<li>CHOCOLATE-FILLED ÉCLAIR (FRENCH STYLE)</li>
-			<li>VANILLA-FILLED ÉCLAIR</li>
-			<li>STRAWBERRY TART</li>
-			<li>MIXED FRUIT TART</li>
-			<li>APPLE TART</li>
-			<li>APPLE NORMANDY TART</li>
-			<li>ALMOND PEAR TART</li>
-			<li>APRICOT SQUARE</li>
-			<li>WONDERFUL CHOCOLATE</li>
-			<li>CHOCOLATE MOUSSE ROYAL</li>
-			<li>CLASSIC NAPOLEON</li>
-			<li>COCONUT FLAN</li>
-			<li>VANILLA FLAN</li>
-			<li>MINI PASTRIES</li>
-		</ul>
+		<h3>BAKERY</h3>
+		<div>
+			<ul>
+				<li>PLAIN CROISSANT</li>
+				<li>CHOCOLATE CROISSANT</li>
+				<li>ALMOND CROISSANT</li>
+				<li>APPLE TURNOVER</li>
+				<li>BEAR PAW</li>
+				<li>RAISIN ROLL CROISSANT</li>
+				<li>JALOUSIE</li>
+				<li>COCO ROCHER</li>
+				<li>ASSORTED DANISHES</li>
+				<li>CINNAMON TWIST</li>
+				<li>STRUDEL</li>
+				<li>AND MORE IN OUR SHOWCASE</li>
+			</ul>
+		</div>
 	</div>
+</div> <!-- End of menuWrapper-->
 
-	<h3>BAKERY</h3>
-	<div>
-		<ul>
-			<li>PLAIN CROISSANT</li>
-			<li>CHOCOLATE CROISSANT</li>
-			<li>ALMOND CROISSANT</li>
-			<li>APPLE TURNOVER</li>
-			<li>BEAR PAW</li>
-			<li>RAISIN ROLL CROISSANT</li>
-			<li>JALOUSIE</li>
-			<li>COCO ROCHER</li>
-			<li>ASSORTED DANISHES</li>
-			<li>CINNAMON TWIST</li>
-			<li>STRUDEL</li>
-			<li>AND MORE IN OUR SHOWCASE</li>
-		</ul>
-</div>
 
 
