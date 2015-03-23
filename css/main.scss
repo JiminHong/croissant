@@ -48,3 +48,15 @@ $on-laptop:        800px;
 		"variables",
         "layout"
 ;
+
+
+@media only screen and (min-width:$query-mobile-min) and (max-width:$query-tablet-max){
+	@import "breakpoints/mobile";
+}
+
+@media only screen and (min-width:$query-desktop-min) and (max-width:$query-desktop-max){
+	@import "layout";	
+}
+
+
+

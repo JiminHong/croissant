@@ -9,13 +9,13 @@
   price: 4.99
 
 
-- image: "03"
+- image: "01"
   name: "Le Vegetarien (Veggie)"
   desc: "White bean spread, spring mix, and fresh vegetables"
   price: 6.99
 
 
-- image: "04"
+- image: "01"
   name: "Salade du Jardin (Garden Salad)"
   desc: "Spring mix, tomato, onion, cucumber, swiss cheese"
   price: 6.99

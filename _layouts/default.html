@@ -6,12 +6,24 @@
   <body>
     {% include nav.html %}
         {{ content }}
+        <div class="mobile-menu">
+  <div class="mobile-menu-inner">
+    <ul class="right nav_ul ">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+    </ul>
+  </div>
+</div>
     {% include footer.html %}
 
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script src="js/jv-jquery-mobile-menu-min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="js/jv-jquery-mobile-menu-min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js"></script>
+  <script src="js/jv-jquery-mobile-menu-min.js"></script>
 
+  <script src="js/script.js"></script>
     <script>
     $(function() {
       $( "#accordion" ).accordion({

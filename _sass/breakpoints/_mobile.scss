@@ -1,299 +1,83 @@
 
-
-//============================================== BASIC LAYOUT
-body, div, h1, h2, h3, p{
-    margin: 0;
-    padding: 0;
-}
-
-#content_wrapper{
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-ul li{
-    list-style-type: none;
-}
-
-.list_img{
-    width: 100%;
-}
-
-
-//============================================== NAV BAR
-
-.nav-wrapper{
-    background-color: $color-navDarkBrown;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding-top: 10px;
-    z-index: 1;
-}
-
-nav{
-    max-width: 960px;
-    height: 95px;
-    margin: 0 auto;
-}
-
-.brand-logo{
-    height: 200px;
-}
-
-.nav_ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-family: $mainFont;
-}
-
-ul.right.nav_ul li {
-    float: left;
-    line-height: 6em;
-}
-
-ul.right.nav_ul li a {
-    color: $color-lightyellow;
-    display: block;
-    width: 100px;
-    text-decoration: none;
-}
-
-ul.right.nav_ul li a:hover {
-    color: $color-lightorange;
-}
-
-.right{
-    float: right;
-}
-
-div [id="hamburger"]{
-  display: none;
-}
-
-//============================================== FEATURE
-
-.index_wrapper{
-    width: 960px;
-    margin: 0 auto;
-}
-
-#feature{
-    background-image: url(../img/03_lg.jpg);
-    background-size: cover;
-    max-width: 100%;
-    max-height: 100%;
-    height: 450px;
-    padding-top: 120px;
-}
-
-div#feature div.index_wrapper h1{
-    color: $color-DarkBrown;
-    font-family: $mainFont;
-    padding: 60px 0 0 100px;
-    font-size: 3rem;
-}
-
-div#feature div.index_wrapper p{
-    color: $color-DarkBrown;
-    font-family: $mainFont;
-    font-size: 2rem;
-    padding: 10px 0 0 100px;
-}
-
-#menuWrapper{
-    max-width: 960px;
-    margin: 0 auto;
-    padding-top: 100px;
-}
-
-//============================================== BUTTON
-
-#view_menu{
-    margin: 10px 0 0 100px;
-    padding:10px 30px;
-    font-family: $mainFont;
-    font-size: 1.2em;
-    color: #efdac5;
-    border-radius: 5px;
-    border: 0;
-    background-color: $color-DarkBrown;
-}
-
-//============================================== COLUMNS
-
-li section div{
-    width: 20%;
-    float: left;
-    margin: 1%;
-    padding: 1%;
-}
-
-/*  SECTIONS  */
-.section {
-  clear: both;
-  padding: 0px;
-  margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-.col {
-  display: block;
-  float:left;
-  margin: 1% 0 1% 1.6%;
-}
-.col:first-child { margin-left: 0;}
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-
-/*  GRID OF TWO  */
-.span_2_of_2 {
+html,
+body {
   width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-.span_1_of_2 {
-  width: 49.2%;
-}
-
-/*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 66.13%; }
-.span_1_of_3 { width: 32.26%; }
-
-
-/*  GRID OF FOUR  */
-.span_4_of_4 {
-  width: 100%;
-}
-.span_3_of_4 {
-  width: 74.6%;
-}
-.span_2_of_4 {
-  width: 49.2%;
-}
-.span_1_of_4 {
-  width: 22.8%;
-}
-
-//============================================== HAMBURGER
 
 .mobile-menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  opacity: 0;
-  display: block;
-  width: 240px;
-  height: 100%;
-  color: #fff;
-  background-color: rgba(43,50,61,0.7);
-  z-index: -100;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  display: block;
+  width: 240px;
+  height: 100%;
+  color: #fff;
+  background-color: #34bc9d;
+  z-index: -100;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .mobile-menu .mobile-menu-inner {
-  width: 200px;
-  padding: 20px 20px 60px
+  width: 200px;
+  padding: 20px 20px 60px;
 }
 
 .mobile-menu ul {
-  margin: 0 0 25px;
-  padding: 0
+  margin: 0 0 25px;
+  padding: 0;
 }
 
 .mobile-menu ul li {
-  list-style: none;
-  padding: 10px 0;
-}
-
-.mobile-menu ul li a{
-text-decoration: none;
-color: #EBEBEB; 
+  list-style: none;
+  padding: 10px 0;
 }
 
 .hamburger {
-  position: fixed;
-  top: 0;
-   right: 0;
-  float: right;
-  margin: 10px;
-  padding: 10px 10px 9px;
-  cursor: pointer;
-  z-index: 99999;
-  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  float: right;
+  margin: 10px;
+  padding: 10px 10px 9px;
+  cursor: pointer;
+  z-index: 99999;
+  display: block;
 }
 
 .hamburger .hamburger-inner {
-  position: relative;
-  height: 21px;
-  width: 25px;
-  display: block;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
+  position: relative;
+  height: 21px;
+  width: 25px;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0
 }
 
 .hamburger .bar {
-  width: 25px;
-  height: 3px;
-  background-color:rgba(255, 0, 0, 0.8);
-  position: absolute;
-  top: 0;
+  width: 25px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: 0;
 }
 
 .hamburger .bar.bar2,
-.hamburger .bar.bar3 { top: 9px; background-color:rgba(255, 0, 0, 0.8);}
+.hamburger .bar.bar3 { top: 9px; }
 
-.hamburger .bar.bar4 { top: 18px; background-color:rgba(255, 0, 0, 0.8);}
+.hamburger .bar.bar4 { top: 18px; }
 
 .hamburger.open .bar1,
-.hamburger.open .bar4 { display: none; background-color:rgba(255, 0, 0, 0.8);}
+.hamburger.open .bar4 { display: none; }
 
 .hamburger.open .bar2,
 .hamburger.open .bar3 { height: 4px; }
 
-//============================================== FOOTER
-
-footer{
-    background-color: $color-DarkBrown;
+nav ul{
+  display:none;
 }
-
-.footer_wrapper{
-    width: 960px;
-    margin: 0 auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

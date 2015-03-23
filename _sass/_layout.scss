@@ -53,6 +53,12 @@ nav ul.right.nav_ul li a{
 nav ul.right.nav_ul{
     width: 40%;
     float: right;
+    margin: 0 10px;
+    line-height: 4.8em;
+}
+
+.hamburger{
+    display: none;
 }
 
 //============================================== FEATURE
@@ -108,6 +114,7 @@ div#feature div.index_wrapper p{
 
 li section div{
     width: 20%;
+    height: 200px;
     float: left;
     margin: 1%;
     padding: 1%;
@@ -162,83 +169,11 @@ li section div{
   width: 22.8%;
 }
 
-//============================================== HAMBURGER
-
-.mobile-menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  opacity: 0;
-  display: block;
-  width: 240px;
-  height: 100%;
-  color: #fff;
-  background-color: rgba(43,50,61,0.7);
-  z-index: -100;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch
+.tableWrapper{
+    padding: 120px 0 20px 0;
+    max-width: 900px;
+    margin: 0 auto;
 }
-
-.mobile-menu .mobile-menu-inner {
-  width: 200px;
-  padding: 20px 20px 60px
-}
-
-.mobile-menu ul {
-  margin: 0 0 25px;
-  padding: 0
-}
-
-.mobile-menu ul li {
-  list-style: none;
-  padding: 10px 0;
-}
-
-.mobile-menu ul li a{
-text-decoration: none;
-color: #EBEBEB; 
-}
-
-.hamburger {
-  position: fixed;
-  top: 0;
-   right: 0;
-  float: right;
-  margin: 10px;
-  padding: 10px 10px 9px;
-  cursor: pointer;
-  z-index: 99999;
-  display: none;
-}
-
-.hamburger .hamburger-inner {
-  position: relative;
-  height: 21px;
-  width: 25px;
-  display: block;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-
-.hamburger .bar {
-  width: 25px;
-  height: 3px;
-  background-color:rgba(255, 0, 0, 0.8);
-  position: absolute;
-  top: 0;
-}
-
-.hamburger .bar.bar2,
-.hamburger .bar.bar3 { top: 9px; background-color:rgba(255, 0, 0, 0.8);}
-
-.hamburger .bar.bar4 { top: 18px; background-color:rgba(255, 0, 0, 0.8);}
-
-.hamburger.open .bar1,
-.hamburger.open .bar4 { display: none; background-color:rgba(255, 0, 0, 0.8);}
-
-.hamburger.open .bar2,
-.hamburger.open .bar3 { height: 4px; }
 
 //============================================== FOOTER
 

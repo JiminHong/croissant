@@ -15,13 +15,13 @@
   price: 2.99
 
 
-- image: "04"
+- image: "03"
   name: "Assorted Danishes"
   desc: "Cheese, Blueberry, Cherry, Raspberry, Peach, and Pear"
   price: 1.99
 
 
-- image: "05"
+- image: "03"
   name: "Bear Paw"
   desc: "Chocolate chips and vanilla pastry cream"
   price: 2.99

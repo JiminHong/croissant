@@ -41,26 +41,6 @@ title: Menu
 			</ul>
 		</div>
 
-		<h3>Savory Crepes</h3>
-		
-				<div>
-					<ul>
-						{% for menuElements in site.data.crepes %}
-						<li>
-							<section>
-									<div>
-										<img class="list_img" src="{{ site.baseurl }}/img/crepes/{{ menuElements.image }}.jpeg">
-										<p>{{ menuElements.name }}</p>
-										<!-- <p>{{ menuElements.desc }}</p> -->
-										<p>$<span>{{ menuElements.price }}</span></p>
-									</div>
-							</section>
-						</li>
-						{% endfor %}
-					</ul>
-				</div>
-	
-
 		<h3>From the Bakery</h3>
 			<div>
 				<ul>
