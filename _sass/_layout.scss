@@ -111,50 +111,6 @@ div#feature div.index_wrapper p{
     background-color: $color-DarkBrown;
 }
 
-//============================================== ACCORDIAN
-#menuWrapper #accordion {
-  width: 100%;
-}
-
-#menuWrapper #accordion > h2 {
-  margin: 0;
-  color:blue;
-  background-color: green;
-  text-align: center;
-  cursor: pointer;
-  clear: both;
-  border:1px solid green;
-}
-
-#menuWrapper #accordion section{
-  padding: 0 5px;
-  clear: both;
-}
-
-#menuWrapper #accordion section ol {
-  list-style-type:none;
-}
-
-#menuWrapper #accordion section div{
-  width: 22.041666666667%;
-  float: left;
-  background-color: white;
-  margin:1.041666666667%;
-}
-
-#menuWrapper #accordion section div img{
-  width: 90%;
-  height: 90%;
-  margin: 5%;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-#menuWrapper #accordion section div p{
-  width: 90%;
-  margin: 5%
-}
-
 //============================================== COLUMNS
 
 li section div{

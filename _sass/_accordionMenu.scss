@@ -1,0 +1,45 @@
+//============================================== ACCORDIAN
+div[id="accordion"] {
+font-family: $mainFont;
+width:100%;
+}
+
+div[id="accordion"] > h2 {
+margin: 0;
+color:$color-lightred;
+background-color: $color-lightyellow;
+cursor: pointer;
+clear: both;
+padding: 5px 0 5px 10px;
+margin-bottom: 3px;
+}
+
+div#accordion section{
+padding: 0 5px;
+clear: both;
+display: none;
+}
+
+div#accordion section ol {
+list-style-type:none;
+}
+
+div#accordion section div{
+width: 22.041666666667%;
+float: left;
+background-color: $color-lightorangeTrans;
+margin:1.041666666667%;
+height: 230px;
+}
+
+div#accordion section div img{
+width: 90%;
+margin: 5%;
+max-width: 100%;
+max-height: 100%;
+}
+
+div#accordion section div p{
+width: 90%;
+margin: 5%
+}
