@@ -95,7 +95,7 @@ div#feature div.index_wrapper p{
 #menuWrapper{
     max-width: 960px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 110px;
 }
 
 //============================================== BUTTON
@@ -112,11 +112,11 @@ div#feature div.index_wrapper p{
 }
 
 //============================================== ACCORDIAN
-#accordion {
+#menuWrapper #accordion {
   width: 100%;
 }
 
-#accordion > h2 {
+#menuWrapper #accordion > h2 {
   margin: 0;
   color:blue;
   background-color: green;
@@ -126,23 +126,23 @@ div#feature div.index_wrapper p{
   border:1px solid green;
 }
 
-#accordion section{
+#menuWrapper #accordion section{
   padding: 0 5px;
   clear: both;
 }
 
-#accordion section ol {
+#menuWrapper #accordion section ol {
   list-style-type:none;
 }
 
-#accordion section div{
+#menuWrapper #accordion section div{
   width: 22.041666666667%;
   float: left;
   background-color: white;
   margin:1.041666666667%;
 }
 
-#accordion section div img{
+#menuWrapper #accordion section div img{
   width: 90%;
   height: 90%;
   margin: 5%;
@@ -150,7 +150,7 @@ div#feature div.index_wrapper p{
   max-height: 100%;
 }
 
-#accordion section div p{
+#menuWrapper #accordion section div p{
   width: 90%;
   margin: 5%
 }
