@@ -4,78 +4,70 @@ title: Menu
 ---
 <div id="menuWrapper">
 	<div id="accordion">	
-			<h3>Chaud (hot)</h3>
-		  		<div>	
-					<ul>
+			<h2>Chaud (hot)</h2>
+				<section>	
+					<ol>
 						{% for menuElements in site.data.chaud %}
 						<li>
-							<section>
 							<div>
 								<img class="list_img" src="{{ site.baseurl }}/img/{{ menuElements.image }}.jpg">
 								<p>{{ menuElements.name }}</p>
 								<!-- <p>{{ menuElements.desc }}</p> -->
 								<p>$<span>{{ menuElements.price }}</span></p>
 							</div>
-							</section>
 						</li>
 						{% endfor %}
-					</ul>
-				</div>
+					</ol>
+				</section>
 					
 
-		<h3>Froid (Cold Sandwiches/Salads)</h3>
-		<div>
-			<ul>
+		<h2>Froid (Cold Sandwiches/Salads)</h2>
+		<section>
+			<ol>
 				{% for menuElements in site.data.crepes %}
 				<li>
-					<section>
-							<div>
-								<img class="list_img" src="{{ site.baseurl }}/img/froid/{{ menuElements.image }}.jpeg">
-								<p>{{ menuElements.name }}</p>
-								<!-- <p>{{ menuElements.desc }}</p> -->
-								<p>$<span>{{ menuElements.price }}</span></p>
-							</div>
-					</section>
+					<div>
+						<img class="list_img" src="{{ site.baseurl }}/img/froid/{{ menuElements.image }}.jpeg">
+						<p>{{ menuElements.name }}</p>
+						<!-- <p>{{ menuElements.desc }}</p> -->
+						<p>$<span>{{ menuElements.price }}</span></p>
+					</div>
 				</li>
 				{% endfor %}
-			</ul>
-		</div>
+			</ol>
+		</section>
 
-		<h3>From the Bakery</h3>
-			<div>
-				<ul>
-					{% for menuElements in site.data.bakery %}
-					<li>
-						<section>
-								<div>
-									<img class="list_img" src="{{ site.baseurl }}/img/bakery/{{ menuElements.image }}.jpeg">
-									<p>{{ menuElements.name }}</p>
-									<!-- <p>{{ menuElements.desc }}</p> -->
-									<p>$<span>{{ menuElements.price }}</span></p>
-								</div>
-						</section>
-					</li>
-					{% endfor %}
-				</ul>
-			</div>
+		<h2>From the Bakery</h2>
+		<section>
+			<ol>
+				{% for menuElements in site.data.bakery %}
+				<li>
+					<div>
+						<img class="list_img" src="{{ site.baseurl }}/img/bakery/{{ menuElements.image }}.jpeg">
+						<p>{{ menuElements.name }}</p>
+						<!-- <p>{{ menuElements.desc }}</p> -->
+						<p>$<span>{{ menuElements.price }}</span></p>
+					</div>
+				</li>
+				{% endfor %}
+			</ol>
+		</section>
 
-		<h3>Classic Pastries</h3>
-			<div>
-				<ul>
-					{% for menuElements in site.data.pastries %}
-					<li>
-						<section>
-								<div>
-									<img class="list_img" src="{{ site.baseurl }}/img/pastries/{{ menuElements.image }}.jpeg">
-									<p>{{ menuElements.name }}</p>
-									<!-- <p>{{ menuElements.desc }}</p> -->
-									<p>$<span>{{ menuElements.price }}</span></p>
-								</div>
-						</section>
-					</li>
-					{% endfor %}
-				</ul>
-			</div>
+		<h2>Classic Pastries</h2>
+		<section>
+			<ol>
+				{% for menuElements in site.data.pastries %}
+				<li>
+					<div>
+						<img class="list_img" src="{{ site.baseurl }}/img/pastries/{{ menuElements.image }}.jpeg">
+						<p>{{ menuElements.name }}</p>
+						<!-- <p>{{ menuElements.desc }}</p> -->
+						<p>$<span>{{ menuElements.price }}</span></p>
+					</div>
+				</li>
+				{% endfor %}
+			</ol>
+		</section>
 	</div>
 </div> <!-- End of menuWrapper-->
 

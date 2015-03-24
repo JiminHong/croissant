@@ -7,13 +7,15 @@
     {% include nav.html %}
         {{ content }}
         <div class="mobile-menu">
-  <div class="mobile-menu-inner">
-    <ul class="right nav_ul ">
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="menu.html">Menu</a></li>
-    </ul>
-  </div>
-</div>
+             <div class="mobile-menu">
+                    <div class="mobile-menu-inner">
+                      <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                      </ul>
+                    </div>
+              </div>
+          </div>
     {% include footer.html %}
 
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -24,13 +26,7 @@
   <script src="js/jv-jquery-mobile-menu-min.js"></script>
 
   <script src="js/script.js"></script>
-    <script>
-    $(function() {
-      $( "#accordion" ).accordion({
-        heightStyle: "content"
-      });
-    });
-    </script>
+    
 
   </body>
 
