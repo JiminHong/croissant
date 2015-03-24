@@ -1,9 +1,11 @@
-#accordion{
-  margin-bottom: 100px;
-  padding-bottom: 100px;
-}
+
 
 //============================================== ACCORDIAN
+#accordion{
+margin-bottom: 100px;
+}
+
+
 div[id="accordion"] {
 font-family: $mainFont;
 width:100%;
@@ -23,6 +25,7 @@ div#accordion section{
 padding: 0 5px;
 clear: both;
 display: none;
+overflow: hidden;
 }
 
 div#accordion section ol {
@@ -47,4 +50,9 @@ max-height: 100%;
 div#accordion section div p{
 width: 90%;
 margin: 5%
+}
+
+.active{
+  color: $color-lightyellow;
+  background-color: $color-lightred;
 }
