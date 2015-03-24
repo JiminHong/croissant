@@ -56,8 +56,10 @@ $on-laptop:        800px;
 }
 
 @media only screen and (min-width:$query-desktop-min) and (max-width:$query-desktop-max){
-	@import "layout";	
+	@import "layout";
 }
-
-
-
+@media only screen and (min-width:1028px){
+  body{
+    background-color:green;
+  }
+}
