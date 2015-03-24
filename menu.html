@@ -3,7 +3,7 @@ layout: default
 title: Menu
 ---
 <div id="menuWrapper">
-	<div id="accordion">	
+	<div id="accordion">
 			<h2>Chaud (hot)</h2>
 				<section>
 					<ol>
@@ -24,7 +24,7 @@ title: Menu
 		<h2>Froid (Cold Sandwiches/Salads)</h2>
 		<section>
 			<ol>
-				{% for menuElements in site.data.crepes %}
+				{% for menuElements in site.data.froid %}
 				<li>
 					<div>
 						<img class="list_img" src="{{ site.baseurl }}/img/froid/{{ menuElements.image }}.jpeg">

@@ -47,7 +47,7 @@ nav a:nth-child(2){
 }
 
 nav a:nth-of-type(n+2){
-    text-align: center; 
+    text-align: center;
     font-family: $mainFont;
     text-decoration: none;
     padding: 2%;
@@ -57,6 +57,13 @@ nav a:nth-of-type(n+2){
         };
 }
 
+div.mobile-menu{
+  display: none;
+}
+
+.mobile-menu ul li {
+  display: none;
+}
 
 .hamburger{
     display: none;
@@ -74,7 +81,7 @@ nav a:nth-of-type(n+2){
     background-size: cover;
     max-width: 100%;
     max-height: 100%;
-    height: 450px;
+    height: 460px;
     padding-top: 120px;
 }
 
@@ -94,7 +101,7 @@ div#feature div.index_wrapper p{
 
 #menuWrapper{
     max-width: 960px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding-top: 110px;
 }
 
@@ -179,6 +186,9 @@ li section div{
 //============================================== FOOTER
 
 footer{
+    width: 100%;
+    position: fixed;
+    bottom:0;
     font-family: $mainFont;
     color: #736c67;
     background-color: $color-DarkBrown;
@@ -190,29 +200,6 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+address{
+  display: inline-block;
+}

@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+div.mobile-menu{
+  display: block;
+}
+
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -34,6 +38,7 @@ body {
 }
 
 .mobile-menu ul li {
+  display: block;
   list-style: none;
   padding: 10px 0;
 }
