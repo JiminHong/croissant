@@ -177,10 +177,25 @@ li section div{
   width: 22.8%;
 }
 
+
+//============================================== TABLE
 .tableWrapper{
-    padding: 120px 0 20px 0;
-    max-width: 900px;
+    margin-bottom: 500px;
+    padding: 130px 0 100px 0;
+    width: 60%;
     margin: 0 auto;
+    font-family: $mainFont;
+}
+
+table{
+  margin-top: 20px;
+}
+.tableProperty{
+  width:25%;
+}
+
+.tableValue{
+  width: 75%;
 }
 
 //============================================== FOOTER

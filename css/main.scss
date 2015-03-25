@@ -45,6 +45,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+    "clearfix",
 		"variables",
 		"layout",
 		"accordionMenu"
@@ -57,9 +58,4 @@ $on-laptop:        800px;
 
 @media only screen and (min-width:$query-desktop-min) and (max-width:$query-desktop-max){
 	@import "layout";
-}
-@media only screen and (min-width:1028px){
-  body{
-    background-color:green;
-  }
 }
