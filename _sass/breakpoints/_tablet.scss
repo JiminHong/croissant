@@ -92,33 +92,22 @@ nav a:nth-of-type(n+2){
   display:none;
 }
 
+
 //============================================== FEATURE
 
 .index_wrapper{
-    width: 90%;
+    width: 70%;
 }
 
 div#feature div.index_wrapper h1{
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 div#feature div.index_wrapper p{
-    margin-top: 15px;
-    line-height: 1.3em;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
-
-//============================================== RESPONSIVE GRID
-
-.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 
 //============================================== ACCORDIAN
-#menuWrapper{
-    max-width: 98%;
-    margin: 10px auto;
-}
-
 div[id="accordion"] {
 font-family: $mainFont;
 width:100%;
@@ -146,7 +135,7 @@ padding-left: 10px;
 }
 
 div#accordion section div{
-width: 98%;
+width: 48%;
 float: left;
 background-color: $color-lightorangeTrans;
 margin:1%;

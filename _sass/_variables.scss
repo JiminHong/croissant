@@ -1,4 +1,4 @@
-$color-navDarkBrown: rgba(53,42,28,.7);
+$color-navDarkBrown: rgba(53,42,28,1);
 $color-DarkBrown: rgba(53,42,28,1);
 $color-lightbrown: #7d6b50;
 $color-lightBlue: #94ccb9;
@@ -7,13 +7,13 @@ $color-lightorange: #ffb170;
 $color-lightorangeTrans: rgba(255,177,112,.5);
 $color-lightred: #f07d65;
 
-$mainFont: futura;
+$mainFont: 'Lato', sans-serif;
 $font-feature: "daniel",cursive;
 
 $query-mobile-min: 400px;
 $query-mobile-max: 749px;
 
-$query-tablet-min: 860px;
+$query-tablet-min: 750px;
 $query-tablet-max: 959px;
 
 $query-desktop-min: 960px;
