@@ -87,7 +87,7 @@ div.mobile-menu{
 
 div#feature div.index_wrapper h1{
     color: $color-DarkBrown;
-    font-family: $mainFont;
+    font-family: $font-feature;
     padding: 60px 0 0 100px;
     font-size: 3rem;
 }
@@ -180,10 +180,9 @@ li section div{
 
 //============================================== TABLE
 .tableWrapper{
-    margin-bottom: 500px;
     padding: 130px 0 100px 0;
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     font-family: $mainFont;
 }
 
