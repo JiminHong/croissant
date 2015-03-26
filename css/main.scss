@@ -51,6 +51,9 @@ $on-laptop:        800px;
 		"accordionMenu"
 ;
 
+@media only screen and (min-width:$query-small-mobile-min) and (max-width:$query-small-mobile-max){
+	@import "breakpoints/smallMobile";
+}
 
 @media only screen and (min-width:$query-mobile-min) and (max-width:$query-mobile-max){
 	@import "breakpoints/mobile";

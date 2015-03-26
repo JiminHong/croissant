@@ -11,7 +11,10 @@ $color-lightred: #f07d65;
 $mainFont: 'Lato', sans-serif;
 $font-feature: "daniel",cursive;
 
-$query-mobile-min: 400px;
+$query-small-mobile-min:300px;
+$query-small-mobile-max:499px;
+
+$query-mobile-min: 500px;
 $query-mobile-max: 749px;
 
 $query-tablet-min: 750px;

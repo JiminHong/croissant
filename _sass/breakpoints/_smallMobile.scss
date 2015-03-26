@@ -92,31 +92,42 @@ nav a:nth-of-type(n+2){
   display:none;
 }
 
-
 //============================================== FEATURE
 
 .index_wrapper{
-    width: 100%;
+    width: 90%;
+}
+
+#feature{
+  height: 335px;
 }
 
 div#feature div.index_wrapper h1{
-    font-size: 2.3em;
+    font-size: 2.5em;
 }
 
 div#feature div.index_wrapper p{
-    font-size: 1.5em;
+    margin-top: 15px;
+    line-height: 1.3em;
+    font-size: 1.3em;
 }
 
-#map, #contactInfo, #menu{
-  width: 26%;
-  padding: 15px 3%;
-}
+//============================================== RESPONSIVE GRID
+
+.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+
+  #facebook, #insta, #menu{
+    width: 100%;
+    padding: 15px 5%;
+  }
 
 //============================================== ACCORDIAN
 #menuWrapper{
-  max-width: 96%;
-  margin: 0 auto;
+    max-width: 98%;
+    margin: 10px auto;
 }
+
 div[id="accordion"] {
 font-family: $mainFont;
 width:100%;
@@ -144,11 +155,11 @@ padding-left: 10px;
 }
 
 div#accordion section div{
-width: 31%;
+width: 98%;
 float: left;
 background-color: $color-lightorangeTrans;
 margin:1%;
-min-height: 275px;
+height: 100%
 }
 
 div#accordion section div img{
@@ -166,4 +177,10 @@ margin: 5%
 .tableWrapper{
 width: 100%;
 margin-bottom: 10px;
+}
+
+
+#map, #contactInfo, #menu{
+  width: 90%;
+  padding: 15px 3%;
 }
