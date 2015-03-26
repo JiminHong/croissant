@@ -113,6 +113,16 @@ div#feature div.index_wrapper p{
 .col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 
+  #facebook, #insta, #menu{
+    background: $color-lvory no-repeat;
+    width: 40%;
+    padding: 15px 5%;
+  }
+
+  #insta{
+    display: none;
+  }
+
 //============================================== ACCORDIAN
 #menuWrapper{
     max-width: 98%;

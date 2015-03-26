@@ -1,8 +1,11 @@
-
+div#accordion h1{
+  font-family:$font-feature;
+  color: $color-navDarkBrown;
+}
 
 //============================================== ACCORDIAN
 #accordion{
-margin-bottom: 100px;
+margin: 160px 0 30px;
 }
 
 

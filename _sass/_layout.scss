@@ -6,9 +6,24 @@ body, div, h1, h2, h3, p{
     padding: 0;
 }
 
-#content_wrapper{
-    max-width: 100%;
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.content_wrapper{
     margin: 0 auto;
+    max-width: 100%;
+    min-height: 100%;
+    margin-bottom: -142px;
+}
+
+.content_wrapper:after {
+  content: "";
+  display: block;
 }
 
 ul li{
@@ -20,14 +35,18 @@ ul li{
 }
 
 
+
 //============================================== NAV BAR
 
 nav{
-    background-color: $color-lightred;
-    width: 100%;
-    padding: 10px 0 0 0;
-    height: 95px;
-    margin: 0 auto;
+  background: url(../img/nav_bg-07.png) repeat-x;
+  width: 100%;
+  padding: 23px 0 0 0;
+  height: 118px;
+  margin: -15px auto;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 nav a:first-child{
@@ -40,7 +59,7 @@ nav a:first-child{
 }
 
 nav a:nth-child(2){
-    margin-left: 63%;
+    margin-left: 58%;
 }
 
 nav a:nth-of-type(n+2){
@@ -49,9 +68,9 @@ nav a:nth-of-type(n+2){
     text-decoration: none;
     padding: 2%;
     line-height: 5em;
-    color: $color-lightyellow;
+    color: $color-lightred;
         &:hover{
-        color: $color-lightorange;
+        color: $color-DarkBrown;
         };
 }
 
@@ -80,11 +99,12 @@ div.mobile-menu{
     background-size: cover;
     max-width: 100%;
     max-height: 100%;
-    height: 380px;
+    height: 420px;
     padding-top: 80px;
 }
 
 div#feature div.index_wrapper h1{
+    margin-top: 60px;
     color: $color-DarkBrown;
     font-family: $font-feature;
     font-size: 3em;
@@ -99,13 +119,13 @@ div#feature div.index_wrapper p{
 
 #menuWrapper{
     max-width: 70%;
-    margin: 10px auto;
+    margin: 100px auto;
 }
 
 //============================================== BUTTON
 
-#view_menu{
-    margin: 30px 0 0 0px;
+#view_menuBtn{
+    margin: 30px 0;
     padding:10px 30px;
     font-family: $mainFont;
     font-size: 1.2em;
@@ -142,7 +162,6 @@ div#feature div.index_wrapper p{
 // .span_2_of_3 { width: 66.13%; }
 .span_1_of_3 {
   width: 32.26%;
-  height: 250px;
 }
 
 /*  GRID OF FOUR  */
@@ -162,21 +181,15 @@ div#feature div.index_wrapper p{
 
 //============================================== 3 BROWSERS
 
-#facebook{
-  background: url(../img/icons/browser-03.png) no-repeat;
-}
-
-#insta{
-  background: url(../img/icons/browser-04.png) no-repeat;
-}
-
-#menu{
-  background: url(../img/icons/browser-05.png) no-repeat;
+#facebook, #insta, #menu{
+  background: $color-lvory no-repeat;
+  width: 22%;
+  padding: 15px 5%;
 }
 
 //============================================== TABLE
 .tableWrapper{
-    padding: 130px 0 100px 0;
+    padding: 40px 0 100px 0;
     width: 60%;
     margin: 0 auto 50px;
     font-family: $mainFont;
@@ -196,20 +209,32 @@ table{
 //============================================== FOOTER
 
 footer{
+    text-align: center;
     width: 100%;
-    // position: fixed;
-    // bottom:0;
     font-family: $mainFont;
     color: #736c67;
     background-color: $color-DarkBrown;
 }
 
 .footer_wrapper{
-    max-width: 960px;
     margin: 0 auto;
 }
 
+.site-footer, .content_wrapper:after {
+  /* .push must be the same height as footer */
+	height: 142px;
+}
 
 address{
   display: inline-block;
+}
+
+.footerIcons{
+  margin: 0 auto;
+  width: 25%;
+}
+
+.leftAlign{
+  float: left;
+  margin: 0 auto;
 }
