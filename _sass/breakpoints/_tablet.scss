@@ -99,6 +99,10 @@ nav a:nth-of-type(n+2){
     width: 100%;
 }
 
+#feature{
+  height: 370px;
+}
+
 div#feature div.index_wrapper h1{
     font-size: 2.3em;
 }
@@ -164,6 +168,7 @@ margin: 5%
 
 //============================================== TABLE
 .tableWrapper{
-width: 100%;
+width: 90%;
+margin: 0 auto;
 margin-bottom: 10px;
 }

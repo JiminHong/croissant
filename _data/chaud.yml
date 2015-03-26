@@ -19,3 +19,20 @@
   name: "Turkey or Ham, apple, and brie "
   desc: "Turkey or ham, apple slices, melted brie, with mayo and mustard panini pressed"
   price: 6.99
+
+- image: "01"
+  name: "Berry French Toast"
+  desc: "Caramelized with cinnamon and topped with berries and whipped cream"
+  price: 9.99
+
+
+- image: "04"
+  name: "French Toast"
+  desc: "Caramelized with cinnamon and topped with whipped cream"
+  price: 7.99
+
+
+- image: "03"
+  name: "Turkey or Ham, apple, and brie "
+  desc: "Turkey or ham, apple slices, melted brie, with mayo and mustard panini pressed"
+  price: 6.99
