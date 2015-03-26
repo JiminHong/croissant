@@ -16,12 +16,16 @@ width:100%;
 
 div[id="accordion"] > h2 {
 margin: 0;
-color:$color-lightred;
-background-color: $color-lightyellow;
+color:$color-lightbrown;
+background-color: #f9f4e5;
 cursor: pointer;
+font-weight: 200;
 clear: both;
 padding: 5px 0 5px 10px;
 margin-bottom: 3px;
+&:hover{
+  font-weight: 400;
+}
 }
 
 div#accordion section{

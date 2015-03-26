@@ -75,7 +75,7 @@ nav a:nth-of-type(n+2){
     line-height: 5em;
     color: $color-lvory;
         &:hover{
-        color: $color-DarkBrown;
+        color: $color-lightorange;
         };
 }
 
@@ -248,13 +248,11 @@ div.tableWrapper {
   width:20%;
   color: $color-mediumGrey;
   font-weight: 200;
-  background-color: $color-lightyellow;
 }
 
 .tableValue{
   width: 80%;
   color: $color-mediumLightGrey;
-  background-color: $color-lvory;
 }
 
 //============================================== FOOTER
