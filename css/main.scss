@@ -66,3 +66,9 @@ $on-laptop:        800px;
 @media only screen and (min-width:$query-desktop-min) and (max-width:$query-desktop-max){
 	@import "layout";
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  body{
+    background-image: url("../img/bg/ecailles_@2X.png");
+  }
+}

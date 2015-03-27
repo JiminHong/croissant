@@ -1,8 +1,8 @@
-
-
 //============================================== BASIC LAYOUT
-body{
-  background-image: url("../img/bg/blizzard.png");
+a:-webkit-any-link {
+  color: -webkit-link;
+  text-decoration: none;
+  cursor: auto;
 }
 
 body, div, h1, h2, h3, p{
@@ -10,6 +10,11 @@ body, div, h1, h2, h3, p{
     padding: 0;
     font-family: $mainFont;
 }
+
+body{
+  background-image: url("../img/bg/ecailles.png") repeat;
+}
+
 
 * {
 	margin: 0;
@@ -287,4 +292,17 @@ address{
 .leftAlign{
   float: left;
   margin: 0 auto;
+}
+
+.social_icons{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+svg{
+  fill:$color-mediumGrey;
+  &:hover{
+    fill:$color-mediumLightGrey;
+  }
 }
