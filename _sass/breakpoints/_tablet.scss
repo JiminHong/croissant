@@ -1,0 +1,192 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("../img/bg/blizzard_@2X.png");
+}
+
+div.mobile-menu{
+  display: block;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  display: block;
+  width: 240px;
+  height: 100%;
+  color: #fff;
+  margin-top: 103px;
+  background-color: #f2b191;
+  z-index: -100;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mobile-menu .mobile-menu-inner {
+  width: 200px;
+  padding: 20px 20px 60px;
+}
+
+.mobile-menu ul {
+  margin: 0 0 25px;
+  padding: 0;
+}
+
+.mobile-menu ul li {
+  display: block;
+  list-style: none;
+  padding: 10px 0;
+  a{
+    color:#6d4b41;
+    text-decoration: none;
+    font-weight: 300;
+    font-size:1.3em;
+    &:hover{
+      font-weight: 500;
+    }
+  }
+}
+
+.hamburger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  float: right;
+  margin: 10px;
+  padding: 10px 10px 9px;
+  cursor: pointer;
+  z-index: 99999;
+  display: block;
+}
+
+.hamburger .hamburger-inner {
+  position: relative;
+  height: 21px;
+  width: 25px;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: 0;
+}
+
+.hamburger .bar.bar2,
+.hamburger .bar.bar3 { top: 9px; }
+
+.hamburger .bar.bar4 { top: 18px; }
+
+.hamburger.open .bar1,
+.hamburger.open .bar4 { display: none; }
+
+.hamburger.open .bar2,
+.hamburger.open .bar3 { height: 4px; }
+
+nav ul{
+  display:none;
+}
+
+nav a:nth-of-type(n+2){
+  display:none;
+}
+
+
+//============================================== FEATURE
+
+.index_wrapper{
+    width: 100%;
+}
+
+#feature{
+  height: 370px;
+}
+
+div#feature div.index_wrapper h1{
+    font-size: 2.3em;
+}
+
+div#feature div.index_wrapper p{
+    font-size: 1.5em;
+}
+
+#map, #contactInfo, #menu{
+  width: 26%;
+  padding: 15px 3%;
+}
+
+//============================================== ACCORDIAN
+#menuWrapper{
+  max-width: 96%;
+  margin: 0 auto;
+}
+div[id="accordion"] {
+font-family: $mainFont;
+width:100%;
+}
+
+div[id="accordion"] > h2 {
+margin: 0;
+color:$color-lightred;
+background-color: $color-lightyellow;
+cursor: pointer;
+clear: both;
+padding: 2px 0 5px 10px;
+margin-bottom: 3px;
+}
+
+div#accordion section{
+padding: 0 5px;
+clear: both;
+display: none;
+}
+
+div#accordion section ol {
+list-style-type:none;
+padding-left: 10px;
+}
+
+div#accordion section div{
+width: 31%;
+float: left;
+background-color: $color-lightorangeTrans;
+margin:1%;
+min-height: 275px;
+}
+
+div#accordion section div img{
+width: 90%;
+margin: 5%;
+max-width: 100%;
+}
+
+div#accordion section div p{
+width: 90%;
+margin: 5%
+}
+
+//============================================== TABLE
+.tableWrapper{
+width: 90%;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+
+
+//============================================== FOOTER
+.footer_wrapper {
+  width: 100%;
+}
