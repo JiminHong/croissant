@@ -7,18 +7,6 @@ body {
   padding: 0;
 }
 
-nav ul{
-  display:none;
-}
-
-nav a:nth-of-type(n+2){
-  display:none;
-}
-
-.hamburger{
-    display: block;
-}
-
 //============================================== FEATURE
 
 .index_wrapper{
@@ -133,4 +121,16 @@ div#feature div.index_wrapper h1 {
 
 h4{
   margin-top: 10px;
+}
+
+nav a:nth-of-type(n+2){
+  display:none;
+}
+
+.mobile-menu ul li {
+  display: block;
+}
+
+.hamburger{
+    display: block;
 }
