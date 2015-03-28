@@ -99,3 +99,16 @@ margin-bottom: 10px;
 .footer_wrapper {
   width: 100%;
 }
+
+
+nav a:nth-of-type(n+2){
+  display:none;
+}
+
+.mobile-menu ul li {
+  display: block;
+}
+
+.hamburger{
+    display: block;
+}
