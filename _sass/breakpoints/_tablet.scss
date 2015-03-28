@@ -24,7 +24,7 @@ div.mobile-menu{
   height: 100%;
   color: #fff;
   margin-top: 103px;
-  background-color: #34bc9d;
+  background-color: #f2b191;
   z-index: -100;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
@@ -44,6 +44,15 @@ div.mobile-menu{
   display: block;
   list-style: none;
   padding: 10px 0;
+  a{
+    color:#6d4b41;
+    text-decoration: none;
+    font-weight: 300;
+    font-size:1.3em;
+    &:hover{
+      font-weight: 500;
+    }
+  }
 }
 
 .hamburger {
@@ -174,4 +183,10 @@ margin: 5%
 width: 90%;
 margin: 0 auto;
 margin-bottom: 10px;
+}
+
+
+//============================================== FOOTER
+.footer_wrapper {
+  width: 100%;
 }

@@ -41,6 +41,15 @@ div.mobile-menu{
   display: block;
   list-style: none;
   padding: 10px 0;
+  a{
+    color:#6d4b41;
+    text-decoration: none;
+    font-weight: 300;
+    font-size:1.3em;
+    &:hover{
+      font-weight: 500;
+    }
+  }
 }
 
 .hamburger {
@@ -114,16 +123,30 @@ div#feature div.index_wrapper p{
 
 //============================================== RESPONSIVE GRID
 
-.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+.col {
+  margin: 1% 0 1% 0%;
+}
 
-  #map, #contactInfo, #menu{
-    width: 43%;
-    padding: 15px 3%;
-  }
-  #menu{
-    display: none;
-  }
+.span_3_of_3, .span_2_of_3, .span_1_of_3 {
+  width: 100%;
+}
+
+.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {
+  width: 33%;
+}
+
+div.col.span_1_of_4:last-child{
+  width: 100%;
+}
+
+
+#map, #contactInfo, #menu{
+  width: 43%;
+  padding: 15px 3%;
+}
+#menu{
+  display: none;
+}
 
 
 //============================================== ACCORDIAN
@@ -181,4 +204,13 @@ margin: 5%
 .tableWrapper{
 width: 100%;
 margin-bottom: 10px;
+}
+
+//============================================== FOOTER
+.footer_wrapper {
+  width: 100%;
+}
+
+.site-footer, .content_wrapper:after {
+  height: 158px;
 }

@@ -41,6 +41,15 @@ div.mobile-menu{
   display: block;
   list-style: none;
   padding: 10px 0;
+  a{
+    color:#6d4b41;
+    text-decoration: none;
+    font-weight: 300;
+    font-size:1.3em;
+    &:hover{
+      font-weight: 500;
+    }
+  }
 }
 
 .hamburger {
@@ -115,12 +124,20 @@ div#feature div.index_wrapper p{
 //============================================== RESPONSIVE GRID
 
 .col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {
+  width: 33%;
+}
 
-  #facebook, #insta, #menu{
-    width: 100%;
-    padding: 15px 5%;
-  }
+div.col.span_1_of_4:last-child{
+  width: 100%;
+}
+
+
+#facebook, #insta, #menu{
+  width: 100%;
+  padding: 15px 5%;
+}
 
 //============================================== ACCORDIAN
 #menuWrapper{
@@ -179,7 +196,6 @@ width: 100%;
 margin-bottom: 10px;
 }
 
-
 #map, #contactInfo, #menu{
   width: 90%;
   padding: 15px 3%;
@@ -187,4 +203,16 @@ margin-bottom: 10px;
 
 div#feature div.index_wrapper h1 {
   margin-top: 60px;
+}
+
+//============================================== FOOTER
+.site-footer, .content_wrapper:after {
+  height: 190px;
+}
+.footer_wrapper {
+  width: 100%;
+}
+
+h4{
+  margin-top: 10px;
 }
