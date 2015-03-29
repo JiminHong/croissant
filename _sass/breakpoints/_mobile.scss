@@ -1,13 +1,3 @@
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-
 nav a:nth-of-type(n+2){
   display:none;
 }
@@ -73,50 +63,21 @@ div.col.span_1_of_4:last-child{
     margin: 10px auto;
 }
 
-div[id="accordion"] {
-font-family: $mainFont;
-width:100%;
-}
-
-div[id="accordion"] > h2 {
-margin: 0;
-color:$color-lightred;
-background-color: $color-lightyellow;
-cursor: pointer;
-clear: both;
-padding: 2px 0 5px 10px;
-margin-bottom: 3px;
-}
-
 div#accordion section{
-padding: 0 5px;
-clear: both;
-display: none;
+padding: 0 5px 0 0;
 }
 
 div#accordion section ol {
-list-style-type:none;
-padding-left: 10px;
+padding-left: 5px;
 }
 
 div#accordion section div{
 width: 48%;
 float: left;
-background-color: $color-lightorangeTrans;
 margin:1%;
 height: 100%
 }
 
-div#accordion section div img{
-width: 90%;
-margin: 5%;
-max-width: 100%;
-}
-
-div#accordion section div p{
-width: 90%;
-margin: 5%
-}
 
 //============================================== TABLE
 .tableWrapper{

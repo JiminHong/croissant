@@ -1,12 +1,4 @@
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 //============================================== FEATURE
 
 .index_wrapper{
@@ -32,69 +24,35 @@ div#feature div.index_wrapper p{
 .col {  margin: 1% 0 1% 0%; }
 .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {
-  width: 33%;
+width: 33%;
 }
 
 div.col.span_1_of_4:last-child{
-  width: 100%;
+width: 100%;
 }
 
 
 #facebook, #insta, #menu{
-  width: 100%;
-  padding: 15px 5%;
+width: 100%;
+padding: 15px 5%;
 }
 
 //============================================== ACCORDIAN
 #menuWrapper{
-    max-width: 98%;
-    margin: 10px auto;
-}
-
-div[id="accordion"] {
-font-family: $mainFont;
-width:100%;
-}
-
-div[id="accordion"] > h2 {
-margin: 0;
-color:$color-lightred;
-background-color: $color-lightyellow;
-cursor: pointer;
-clear: both;
-padding: 2px 0 5px 10px;
-margin-bottom: 3px;
-}
-
-div#accordion section{
-padding: 0 5px;
-clear: both;
-display: none;
+max-width: 98%;
+margin: 10px auto;
 }
 
 div#accordion section ol {
-list-style-type:none;
-padding-left: 10px;
+padding-left: 7px;
 }
 
 div#accordion section div{
 width: 98%;
-float: left;
-background-color: $color-lightorangeTrans;
 margin:1%;
 height: 100%
 }
 
-div#accordion section div img{
-width: 90%;
-margin: 5%;
-max-width: 100%;
-}
-
-div#accordion section div p{
-width: 90%;
-margin: 5%
-}
 
 //============================================== TABLE
 .tableWrapper{
